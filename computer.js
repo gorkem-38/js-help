@@ -1,21 +1,4 @@
-class AccessoryPc {
-    constructor(category) {
-        this.category = category;
-    };
-
-    keyboard(value) {
-        value = this.category;
-        try {
-            if(value === "keyboard") {
-                return "je suis un clavier.";
-            } else {
-                return "keyboard error";
-            }
-        } catch (error) {
-            console.error(error);
-        }
-    };
-};
+import AccessoryPc from "./accessory";
 
 class Computer extends AccessoryPc {
     constructor(hardDisk, gpu, cpu, category) {
@@ -23,6 +6,22 @@ class Computer extends AccessoryPc {
         this.hardDisk = hardDisk;
         this.gpu = gpu;
         this.cpu = cpu;
+    };
+
+    findCategory() {
+        let result = this.category;
+        try {
+            switch (result) {
+                case "keyboard":
+                    return `${super.keyboard()}`;
+                case "écran" :
+                    return `${super.screens()}`;
+                default:
+                    return "erreur";
+            }
+        } catch (error) {
+            console.error(error);
+        };
     };
 };
 
