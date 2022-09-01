@@ -1,17 +1,3 @@
-const btn = document.getElementById("dark-mode");
-const body = document.querySelector("body");
-const title = document.querySelectorAll("h1");
-
-const darkMode = () => {
-    body.classList.toggle("bg-black");    
-    body.classList.toggle("text-white");
-    title.forEach((value) => {
-        value.classList.toggle("bg-red-500")
-    });
-};
-
-btn.addEventListener("click", darkMode);
-
 import Computer from './computer';
 
 let hatim = new Computer("ssd", "Rtx3090", "intel 7");
@@ -20,7 +6,7 @@ let warren = new Computer("hdd", "lorem", "amd 5");
 console.log(hatim);
 console.log(warren);
 
-const btnn = document.getElementById("submit");
+const btn = document.getElementById("submit");
 const hardDisk = document.getElementById("hard-disk");
 const gpu = document.getElementById("gpu");
 const cpu = document.getElementById("cpu");
