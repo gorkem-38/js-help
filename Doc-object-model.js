@@ -23,12 +23,3 @@
   
 //   root.before(paragraph);
 
-
-// let dataa = {
-//   userName: "Gorkem",
-//   userAge: 20,
-//   city: "Meaux",
-//   color_eyes: "brown",
-//   size: 1.75,
-// }
-
