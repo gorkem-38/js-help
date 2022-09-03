@@ -15,6 +15,7 @@
         <script src="./class-DOM.js"></script>
         <script src="./components/a.js"></script>
         <script src="./menu.js"></script> -->
+        <script src="./a.js"></script>
     </head>
     <body>
         <!-- <div id="root"></div>
@@ -40,5 +41,21 @@
                 </li>
             </ul>
         </nav> -->
+        <form action="" class="flex flex-col mx-20 mt-20">
+            <label for="">HDD</label>
+            <input type="text" id="hard-disk" class="border-2 border-cyan-500" />
+            <label for="">GPU</label>
+            <input type="text" id="gpu" class="border-2 border-cyan-500" /> 
+            <label for="">CPU</label>
+            <input type="text" id="cpu" class="border-2 border-cyan-500" />
+            <label for="">CATEGORY</label>
+            <input type="text" id="category" class="border-2 border-cyan-500">
+            <button id="submitt" type="button" class="border-2 border-cyan-500 w-40 mt-10">Envoyer</button>
+          </form>
+        </div>
+        <span id="results-hdd"></span>
+        <span id="results-gpu"></span>
+        <span id="results-cpu"></span>
+        <span id="results-category"></span>
     </body>
 </html>
