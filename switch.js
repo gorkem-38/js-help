@@ -15,8 +15,8 @@ switch (age) {
 let pays = "Corée";
 
 switch (pays) {
-    case "France": 
-    case "Allemagne": 
+    case "States":
+    case "Mexique": 
         console.log("tu es Européen");
         break;
     case "Corée du nord": 
