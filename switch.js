@@ -10,7 +10,7 @@ switch (age) {
     default:
         console.log("tu ne peux pas boire de l'alcool");
         break;
-}
+};
 
 let pays = "Corée";
 
@@ -24,4 +24,4 @@ switch (pays) {
     default:
         console.log("tu es undefined");
         break;
-}
+};
