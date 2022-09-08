@@ -1,15 +1,8 @@
-const text = async () => {
-    let response = await fetch("https://jsonplaceholder.typicode.com/posts");
-    console.log(response);
-    let result = await response.json();
-    console.log(result[10].body);
-  };
-  
-  text()
-  
-  let data = {
-    id: 0,
-    body:"lorem"
-  }
-  
-  console.log(data.body);
+const urlText = async() => {
+  let answer = await fetch("https://jsonplaceholder.typicode.com/posts")
+  console.log(answer);
+  let results = await answer.json();
+  console.log(results[10].body);
+};
+
+urlText();
