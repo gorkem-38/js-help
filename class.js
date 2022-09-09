@@ -94,8 +94,8 @@ class Agency {
 };
 
 class Home extends Agency {
-  constructo(surface, price, location, name) {
-    super(name)
+  constructor(surface, price, location, name) {
+    super(name);
     this.surface = surface;
     this.price = price;
     this.location = location;
