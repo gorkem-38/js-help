@@ -30,8 +30,8 @@ class User {
   
       flying() {
           return "je vole";
-      }
-  }
+      };
+  };
   
   class Plane extends Fly {
       constructor(society, color, price, desc, time) {
