@@ -9,8 +9,8 @@ export class Shirt extends FindClothes {
   }
   FindCategory() {
     return `${super.SearchCategory()}`;
-  }
-}
+  };
+};
 
 export class Shoes extends FindClothes {
   constructor(colors, size, mark, category) {
@@ -18,5 +18,5 @@ export class Shoes extends FindClothes {
     this.colors = colors;
     this.size = size;
     this.mark = mark;
-  }
-}
+  };
+};
