@@ -2,8 +2,8 @@ class Phone {
     constructor(color, price) {
       this.color = color;
       this.price = price;
-    }
-  }
+    };
+  };
   
   const time = () => {
     setTimeout(() => {
